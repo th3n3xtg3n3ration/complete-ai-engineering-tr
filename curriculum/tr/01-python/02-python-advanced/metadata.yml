@@ -1,0 +1,20 @@
+id: py-02
+slug: python-advanced
+title: İleri Python
+language: tr
+level: L1
+status: completed
+estimated_hours: 10
+prerequisites:
+  - py-01
+outcomes:
+  - comprehensions
+  - iterators-generators
+  - decorators
+  - context-managers
+  - typing-dataclasses
+  - exception-design
+assessment:
+  quiz_questions: 10
+  assignment: true
+  automated_tests: true
