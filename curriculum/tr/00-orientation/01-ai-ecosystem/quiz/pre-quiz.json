@@ -1,0 +1,43 @@
+{
+  "lesson_id": "orientation-ai-ecosystem-01",
+  "type": "pre",
+  "passing_score": 0,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Makine öğrenmesi ile klasik programlama arasındaki temel fark hangisidir?",
+      "options": [
+        "ML yalnızca GPU'da çalışır",
+        "ML örüntüleri veriden öğrenir",
+        "Klasik programlama veri kullanmaz",
+        "ML her zaman sinir ağı kullanır"
+      ],
+      "answer_index": 1,
+      "explanation": "Makine öğrenmesi, açık kuralların tamamını yazmak yerine örneklerden parametre öğrenir."
+    },
+    {
+      "id": "q2",
+      "question": "RAG'ın temel görevi nedir?",
+      "options": [
+        "Model parametrelerini her soruda yeniden eğitmek",
+        "İlgili dış bilgiyi getirip modele bağlam vermek",
+        "GPU belleğini artırmak",
+        "Tokenization işlemini kaldırmak"
+      ],
+      "answer_index": 1,
+      "explanation": "RAG, çalışma anında haricî kaynaktan bağlam getirir."
+    },
+    {
+      "id": "q3",
+      "question": "Agentic AI sistemi için hangisi en ayırt edici özelliktir?",
+      "options": [
+        "Yalnızca uzun cevap yazması",
+        "Her zaman internete bağlı olması",
+        "Durum izleyip araçlarla çok adımlı eylem yürütmesi",
+        "Mutlaka birden fazla LLM kullanması"
+      ],
+      "answer_index": 2,
+      "explanation": "Ajan sistemleri hedefe yönelik gözlem-eylem döngüsü ve araç kullanımıyla ayrılır."
+    }
+  ]
+}

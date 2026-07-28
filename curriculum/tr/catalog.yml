@@ -1,0 +1,68 @@
+version: 1
+language: tr
+modules:
+  - id: 00-orientation
+    title: Oryantasyon
+    status: draft
+    lessons:
+      - 01-ai-ecosystem
+  - id: 01-python
+    title: Python
+    status: planned
+    lessons: []
+  - id: 02-computer-science
+    title: Bilgisayar Bilimi ve Yazılım Mühendisliği
+    status: planned
+    lessons: []
+  - id: 03-mathematics
+    title: Yapay Zekâ Matematiği
+    status: planned
+    lessons: []
+  - id: 04-data-engineering
+    title: Veri Analizi, SQL ve Veri Mühendisliği
+    status: planned
+    lessons: []
+  - id: 05-machine-learning
+    title: Makine Öğrenmesi
+    status: planned
+    lessons: []
+  - id: 06-deep-learning
+    title: Derin Öğrenme ve PyTorch
+    status: planned
+    lessons: []
+  - id: 07-applied-ai
+    title: Uygulamalı AI
+    status: planned
+    lessons: []
+  - id: 08-transformers
+    title: Attention ve Transformer
+    status: planned
+    lessons: []
+  - id: 09-llm-engineering
+    title: LLM Mühendisliği
+    status: planned
+    lessons: []
+  - id: 10-rag
+    title: RAG
+    status: planned
+    lessons: []
+  - id: 11-fine-tuning
+    title: Fine-tuning ve Alignment
+    status: planned
+    lessons: []
+  - id: 12-agentic-ai
+    title: Agentic AI
+    status: planned
+    lessons: []
+  - id: 13-mlops-llmops
+    title: MLOps ve LLMOps
+    status: planned
+    lessons: []
+  - id: 14-evaluation-security
+    title: Evaluation ve Güvenlik
+    status: planned
+    lessons: []
+  - id: 15-capstone
+    title: Bitirme Projesi
+    status: planned
+    lessons: []

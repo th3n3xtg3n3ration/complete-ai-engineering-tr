@@ -1,0 +1,19 @@
+id: orientation-ai-ecosystem-01
+title: AI Ekosistemi ve Temel Kavramlar
+language: tr
+level: L0
+duration_hours: 4
+status: draft
+last_reviewed: 2026-07-28
+prerequisites: []
+outcomes:
+  - yapay-zeka-makine-ogrenmesi-derin-ogrenme-farklarini-aciklar
+  - transformer-llm-rag-agentic-ai-iliskisini-kurur
+  - problem-icin-uygun-ai-yaklasimini-secer
+artifacts:
+  - theory
+  - code
+  - exercises
+  - quiz
+  - assignment
+maintainers: []

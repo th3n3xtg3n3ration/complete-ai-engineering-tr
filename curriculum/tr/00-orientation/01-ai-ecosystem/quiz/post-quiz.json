@@ -1,0 +1,67 @@
+{
+  "lesson_id": "orientation-ai-ecosystem-01",
+  "type": "post",
+  "passing_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Aşağıdaki ilişkilerden hangisi en doğrudur?",
+      "options": [
+        "AI ⊂ ML ⊂ DL",
+        "DL ⊂ ML ⊂ AI",
+        "ML ve AI ilişkisizdir",
+        "LLM bütün AI alanını kapsar"
+      ],
+      "answer_index": 1,
+      "explanation": "Derin öğrenme, makine öğrenmesinin; makine öğrenmesi de AI'ın alt alanıdır."
+    },
+    {
+      "id": "q2",
+      "question": "Transformer için en doğru tanım hangisidir?",
+      "options": [
+        "Bir vektör veritabanı",
+        "Attention merkezli sinir ağı mimarisi",
+        "Yalnızca görsel üreten model",
+        "Bir programlama dili"
+      ],
+      "answer_index": 1,
+      "explanation": "Transformer, attention mekanizmasını merkezine alan bir mimaridir."
+    },
+    {
+      "id": "q3",
+      "question": "Sık değişen şirket belgelerine dayalı cevap için ilk düşünülecek yöntem hangisidir?",
+      "options": [
+        "RAG",
+        "K-means",
+        "Tam model ön eğitimi",
+        "Sadece sistem promptu"
+      ],
+      "answer_index": 0,
+      "explanation": "Sık değişen özel bilgi çalışma anında retrieval ile getirilebilir."
+    },
+    {
+      "id": "q4",
+      "question": "Ajan kullanmamak için güçlü bir gerekçe hangisidir?",
+      "options": [
+        "Problem doğal dil içeriyor",
+        "Sabit ve güvenilir birkaç adım problemi çözüyor",
+        "Veri tabanı kullanılıyor",
+        "Kullanıcı Türkçe konuşuyor"
+      ],
+      "answer_index": 1,
+      "explanation": "Deterministik workflow yeterliyse ajan gereksiz karmaşıklık ekleyebilir."
+    },
+    {
+      "id": "q5",
+      "question": "LLM'nin akıcı cevap üretmesi neyi garanti eder?",
+      "options": [
+        "Cevabın kesin doğru olduğunu",
+        "Kaynakların güncel olduğunu",
+        "Yalnızca dilsel olarak ikna edici olabileceğini",
+        "Modelin özel verilere eriştiğini"
+      ],
+      "answer_index": 2,
+      "explanation": "Akıcılık doğruluk garantisi değildir; doğrulama gerekir."
+    }
+  ]
+}

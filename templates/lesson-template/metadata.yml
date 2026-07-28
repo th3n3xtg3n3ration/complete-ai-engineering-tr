@@ -1,0 +1,17 @@
+id: module-topic-number
+title: Ders Başlığı
+language: tr
+level: L0
+duration_hours: 4
+status: planned
+last_reviewed: 2026-07-28
+prerequisites: []
+outcomes:
+  - olculebilir-ogrenme-ciktisi
+artifacts:
+  - theory
+  - code
+  - exercises
+  - quiz
+  - assignment
+maintainers: []
