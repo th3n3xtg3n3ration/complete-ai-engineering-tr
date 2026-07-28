@@ -1,0 +1,26 @@
+id: git-github-02
+title: GitHub İş Birliği, Pull Request ve Code Review
+slug: github-collaboration
+module: 02-git-github
+lesson: 2
+level: L1
+status: completed
+estimated_hours: 10
+language: tr
+code_language: en
+prerequisites:
+  - git-github-01
+topics:
+  - github-flow
+  - issues
+  - pull-requests
+  - code-review
+  - merge-strategies
+  - branch-protection
+  - codeowners
+  - releases
+  - semantic-versioning
+assessment:
+  quiz_questions: 10
+  exercises: 15
+  assignment_points: 100
