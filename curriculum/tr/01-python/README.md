@@ -1,5 +1,11 @@
-# Python
+# Modül 1 — Python
 
-**Durum:** Planned
+Bu modül, yapay zekâ mühendisliğinde kullanılacak programlama temelini kurar.
 
-Bu modülün ayrıntılı dersleri yol haritasına göre eklenecektir. Boş başlıklar yerine tamamlanan ve test edilen dersler aşamalı olarak yayımlanır.
+## Dersler
+
+1. [Python Temelleri](01-python-fundamentals/README.md) — tamamlandı
+2. Koşullar, döngüler ve problem çözme — planlandı
+3. Koleksiyonlar ve comprehension — planlandı
+4. Fonksiyonlar, modüller, dosyalar ve hata yönetimi — planlandı
+5. İleri Python ve nesne yönelimli programlama — planlandı
