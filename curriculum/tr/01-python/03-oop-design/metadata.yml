@@ -1,0 +1,25 @@
+id: py-03-oop-design
+module: python
+week: 3
+title: Nesne Yönelimli Programlama ve Tasarım İlkeleri
+level: L1
+language: tr
+estimated_hours: 10
+status: completed
+prerequisites:
+  - py-01-python-fundamentals
+  - py-02-python-advanced
+outcomes:
+  - domain_modeling
+  - composition
+  - polymorphism
+  - solid
+  - dependency_injection
+artifacts:
+  theory: theory.md
+  source: src/order_system.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+  tests: tests/test_order_system.py
