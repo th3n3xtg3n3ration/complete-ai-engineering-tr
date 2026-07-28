@@ -1,0 +1,27 @@
+id: cs-03-tree-heap-graph
+title: "Tree, Heap ve Graph"
+module: "Bilgisayar Bilimleri ve Yazılım Mühendisliği"
+level: L2
+status: completed
+estimated_hours: 14
+language: tr
+code_language: en
+prerequisites:
+  - cs-01-algorithms-big-o-data-structures
+  - cs-02-search-sort-recursion
+topics:
+  - binary-tree
+  - binary-search-tree
+  - traversal
+  - heap
+  - priority-queue
+  - graph
+  - bfs
+  - dfs
+  - topological-sort
+  - cycle-detection
+assessment:
+  quiz: true
+  assignment: true
+  tests: true
+mini_project: ai-pipeline-scheduler
