@@ -1,0 +1,21 @@
+id: cs-04-testing-debugging-profiling-logging
+title: Test, Debugging, Profiling ve Logging
+module: computer-science
+language: tr
+level: L2
+estimated_hours: 14
+status: completed
+prerequisites:
+  - cs-01-algorithms-big-o-data-structures
+  - cs-02-search-sort-recursion
+learning_outcomes:
+  - design unit and integration tests
+  - isolate dependencies with injection and mocks
+  - debug failures systematically
+  - profile Python workloads
+  - implement safe structured logging
+artifacts:
+  - observable inference service
+  - pytest suite
+  - profiling report
+  - logging policy
