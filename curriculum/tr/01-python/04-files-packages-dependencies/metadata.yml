@@ -1,0 +1,27 @@
+id: python-04-files-packages-dependencies
+title: Dosya, Paket ve Bağımlılık Yönetimi
+module: Python
+level: L1
+status: completed
+estimated_hours: 9
+language: tr
+prerequisites:
+  - python-01-fundamentals
+  - python-02-advanced
+topics:
+  - pathlib
+  - json
+  - csv
+  - atomic-write
+  - packages
+  - pyproject-toml
+  - virtual-environments
+  - dependency-management
+artifacts:
+  theory: theory.md
+  example: src/data_toolkit
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+  tests: tests/test_storage.py
