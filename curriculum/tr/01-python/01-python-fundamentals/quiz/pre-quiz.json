@@ -1,0 +1,28 @@
+{
+  "lesson_id": "python-01-fundamentals",
+  "type": "pre",
+  "passing_score": 0,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "input() fonksiyonu varsayılan olarak hangi tipi döndürür?",
+      "options": ["int", "float", "str", "bool"],
+      "answer_index": 2,
+      "explanation": "input() terminalden alınan değeri metin olarak döndürür."
+    },
+    {
+      "id": "q2",
+      "question": "Python'da atama operatörü hangisidir?",
+      "options": ["==", "=", ":=:", "=>"],
+      "answer_index": 1,
+      "explanation": "Tek eşittir işareti bir isme değer atar."
+    },
+    {
+      "id": "q3",
+      "question": "Bir fonksiyondan değer döndürmek için hangi anahtar kelime kullanılır?",
+      "options": ["print", "yield", "return", "output"],
+      "answer_index": 2,
+      "explanation": "return sonucu çağıran koda geri verir."
+    }
+  ]
+}
