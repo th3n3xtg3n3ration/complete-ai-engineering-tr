@@ -1,0 +1,42 @@
+{
+  "lesson_id": "python-01-fundamentals",
+  "type": "post",
+  "passing_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "17 // 5 işleminin sonucu nedir?",
+      "options": ["2", "3", "3.4", "4"],
+      "answer_index": 1,
+      "explanation": "// taban bölme yapar; sonuç 3'tür."
+    },
+    {
+      "id": "q2",
+      "question": "17 % 5 işleminin sonucu nedir?",
+      "options": ["2", "3", "3.4", "5"],
+      "answer_index": 0,
+      "explanation": "% bölme işleminden kalanı verir; kalan 2'dir."
+    },
+    {
+      "id": "q3",
+      "question": "float('12,5') neden hata verir?",
+      "options": ["float metin kabul etmez", "Virgül standart ondalık ayırıcı değildir", "12,5 negatif sayıdır", "Python ondalık sayı desteklemez"],
+      "answer_index": 1,
+      "explanation": "Python float dönüşümünde varsayılan ondalık ayırıcı noktadır."
+    },
+    {
+      "id": "q4",
+      "question": "Hesaplama sonucunu başka kodun kullanabilmesi için en uygun yaklaşım hangisidir?",
+      "options": ["print etmek", "global değişkene yazmak", "return etmek", "input ile almak"],
+      "answer_index": 2,
+      "explanation": "return değeri çağıran koda iletir ve fonksiyonu test edilebilir kılar."
+    },
+    {
+      "id": "q5",
+      "question": "Aşağıdakilerden hangisi iyi bir Python değişken adıdır?",
+      "options": ["2score", "monthly-income", "monthly_income", "class"],
+      "answer_index": 2,
+      "explanation": "monthly_income geçerli ve snake_case biçiminde açıklayıcı bir isimdir."
+    }
+  ]
+}
