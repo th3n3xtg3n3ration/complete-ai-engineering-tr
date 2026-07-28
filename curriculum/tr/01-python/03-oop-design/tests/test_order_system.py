@@ -1,13 +1,20 @@
+from importlib.util import module_from_spec, spec_from_file_location
+from pathlib import Path
+
 import pytest
 
-from curriculum.tr.01_python.03_oop_design.src.order_system import (
-    CheckoutService,
-    FakePaymentGateway,
-    Order,
-    OrderItem,
-    PercentageDiscount,
-    Product,
-)
+MODULE_PATH = Path(__file__).parents[1] / "src" / "order_system.py"
+SPEC = spec_from_file_location("order_system", MODULE_PATH)
+assert SPEC and SPEC.loader
+order_system = module_from_spec(SPEC)
+SPEC.loader.exec_module(order_system)
+
+CheckoutService = order_system.CheckoutService
+FakePaymentGateway = order_system.FakePaymentGateway
+Order = order_system.Order
+OrderItem = order_system.OrderItem
+PercentageDiscount = order_system.PercentageDiscount
+Product = order_system.Product
 
 
 def test_product_rejects_negative_price():
