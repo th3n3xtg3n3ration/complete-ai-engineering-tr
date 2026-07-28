@@ -5,10 +5,10 @@ Bu modül; algoritmik düşünme, veri yapıları, karmaşıklık analizi, temiz
 ## Tamamlanan dersler
 
 1. [Algoritmik Düşünme, Big-O ve Temel Veri Yapıları](01-algorithms-big-o-data-structures/README.md) — karmaşıklık analizi, array/list, stack, queue, hash table ve linked list
+2. [Arama, Sıralama ve Recursion](02-search-sort-recursion/README.md) — linear ve binary search, temel sıralamalar, merge sort, quick sort, recursion ve benchmark tasarımı
 
 ## Sıradaki dersler
 
-2. Arama, sıralama ve recursion — planlandı
 3. Tree, heap ve graph — planlandı
 4. Test, debugging, profiling ve logging — planlandı
 5. Linux, process, thread, HTTP ve REST temelleri — planlandı
