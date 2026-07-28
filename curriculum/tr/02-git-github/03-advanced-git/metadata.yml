@@ -1,0 +1,29 @@
+id: git-github-03
+module: 02-git-github
+order: 3
+title: "İleri Git: Rebase, Cherry-pick, Reflog ve Bisect"
+level: L2
+language: tr
+estimated_hours: 10
+status: completed
+prerequisites:
+  - git-github-01
+  - git-github-02
+topics:
+  - commit-graph
+  - rebase
+  - interactive-rebase
+  - cherry-pick
+  - reflog
+  - bisect
+  - reset
+  - force-with-lease
+artifacts:
+  - README.md
+  - theory.md
+  - lab.md
+  - exercises.md
+  - quiz.md
+  - assignment.md
+  - interview-questions.md
+  - scripts/bisect_demo.py
