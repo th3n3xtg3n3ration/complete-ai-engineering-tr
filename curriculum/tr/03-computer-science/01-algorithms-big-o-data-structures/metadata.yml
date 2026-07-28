@@ -1,0 +1,20 @@
+id: cs-01-algorithms-big-o-data-structures
+title: Algoritmik Düşünme, Big-O ve Temel Veri Yapıları
+module: computer-science
+level: L1
+language: tr
+code_language: en
+estimated_hours: 12
+status: completed
+prerequisites:
+  - python-fundamentals
+outcomes:
+  - analyze time and space complexity
+  - implement stack queue hash-table-backed store and linked list
+  - select data structures for AI engineering workloads
+artifacts:
+  - src/data_structures.py
+  - tests/test_data_structures.py
+assessment:
+  quiz_questions: 10
+  assignment_points: 100
