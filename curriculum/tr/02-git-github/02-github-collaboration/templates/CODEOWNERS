@@ -1,0 +1,10 @@
+# Tüm dosyalar için varsayılan sahip
+* @platform-team
+
+# Model ve değerlendirme alanları
+/models/ @ml-team
+/evaluation/ @ml-team
+
+# Güvenlik açısından hassas alanlar
+/.github/workflows/ @platform-team @security-team
+/security/ @security-team
