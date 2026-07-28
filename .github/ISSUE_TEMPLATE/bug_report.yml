@@ -1,0 +1,27 @@
+name: Hata bildirimi
+description: Kod, test, quiz veya dokümantasyondaki bir hatayı bildirin
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Hata açıklaması
+      description: Ne oldu ve ne olmasını bekliyordunuz?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Yeniden üretme adımları
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: İlgili dosya veya ders yolu
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ortam
+      description: İşletim sistemi, Python sürümü ve ilgili paketler

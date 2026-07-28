@@ -1,0 +1,35 @@
+name: Yeni ders önerisi
+description: Müfredata yeni bir ders veya konu önerin
+title: "lesson: "
+labels: ["content", "proposal"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Ders başlığı
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Hedef seviye
+      options: [L0, L1, L2, L3, L4, L5, L6]
+    validations:
+      required: true
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: Öğrenme çıktıları
+      description: Öğrenci ders sonunda ne yapabilecek?
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Ön koşullar
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Neden müfredata eklenmeli?
+    validations:
+      required: true
