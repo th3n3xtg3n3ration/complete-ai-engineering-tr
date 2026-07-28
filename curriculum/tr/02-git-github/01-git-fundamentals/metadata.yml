@@ -1,0 +1,25 @@
+id: tr-git-01
+module: git-github
+lesson: git-fundamentals
+language: tr
+level: L1
+estimated_hours: 8
+status: completed
+prerequisites:
+  - tr-python-05
+outcomes:
+  - explain_git_working_areas
+  - create_atomic_commits
+  - use_branches_and_merge
+  - resolve_merge_conflicts
+  - work_with_remotes
+  - apply_safe_undo_strategies
+  - protect_secrets_and_artifacts
+artifacts:
+  - theory.md
+  - lab.md
+  - exercises.md
+  - quiz.md
+  - assignment.md
+  - interview-questions.md
+  - scripts/check_repository.py
