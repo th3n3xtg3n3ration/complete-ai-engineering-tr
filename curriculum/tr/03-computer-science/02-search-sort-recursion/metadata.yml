@@ -1,0 +1,25 @@
+id: cs-02-search-sort-recursion
+title: Arama, Sıralama ve Recursion
+module: Bilgisayar Bilimleri ve Yazılım Mühendisliği
+level: L1
+status: completed
+estimated_hours: 12
+language:
+  explanations: tr
+  code: en
+prerequisites:
+  - cs-01-algorithms-big-o-data-structures
+topics:
+  - linear-search
+  - binary-search
+  - bubble-sort
+  - selection-sort
+  - insertion-sort
+  - merge-sort
+  - quick-sort
+  - recursion
+  - divide-and-conquer
+  - benchmarking
+outputs:
+  - tested-algorithm-implementations
+  - benchmark-report
