@@ -1,0 +1,25 @@
+id: py-05-async-concurrency
+title: Asenkron Python ve Eşzamanlılık
+module: 01-python
+order: 5
+language: tr
+level: L1
+status: completed
+estimated_hours: 10
+prerequisites:
+  - py-01-python-fundamentals
+  - py-02-python-advanced
+learning_outcomes:
+  - asyncio event loop ve coroutine modelini açıklar
+  - task, gather, timeout ve cancellation kullanır
+  - semaphore ve queue ile kontrollü eşzamanlılık kurar
+  - async, thread ve process yaklaşımlarını karşılaştırır
+  - retry içeren test edilebilir async işleyici geliştirir
+artifacts:
+  theory: theory.md
+  source: src/async_crawler.py
+  tests: tests/test_async_crawler.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
