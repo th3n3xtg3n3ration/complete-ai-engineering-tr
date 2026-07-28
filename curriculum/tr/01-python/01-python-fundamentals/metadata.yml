@@ -1,0 +1,22 @@
+id: python-01-fundamentals
+title: Python Temelleri
+language: tr
+level: L0
+duration_hours: 8
+status: stable
+last_reviewed: 2026-07-28
+prerequisites:
+  - orientation-ai-ecosystem-01
+outcomes:
+  - temel-python-veri-tiplerini-ve-operatorlerini-kullanir
+  - kullanici-girdisini-dogrular-ve-donusturur
+  - kucuk-problemleri-fonksiyonlara-boler
+  - basit-birim-testleri-yazar
+artifacts:
+  - theory
+  - code
+  - exercises
+  - quiz
+  - assignment
+  - tests
+maintainers: []
