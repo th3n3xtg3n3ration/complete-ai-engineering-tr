@@ -1,0 +1,65 @@
+id: data-07
+slug: indexes-transactions-query-plans-database-reliability
+title: İndeksler, Transaction, Query Plan ve Veritabanı Güvenilirliği
+module: data-analysis-sql-data-engineering
+module_order: 5
+lesson_order: 7
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 22
+prerequisites:
+  - data-06
+learning_outcomes:
+  - İş yüküne göre tek kolonlu ve birleşik indeks tasarlar.
+  - EXPLAIN QUERY PLAN ile full scan ve index search davranışını yorumlar.
+  - Atomik transaction, savepoint ve rollback sınırları kurar.
+  - Idempotency ve optimistic locking uygular.
+  - WAL, busy timeout ve exponential backoff ile lock riskini yönetir.
+  - Integrity check, query-only bağlantı ve backup restore testi uygular.
+topics:
+  - sqlite
+  - indexes
+  - b-tree
+  - composite-index
+  - covering-index
+  - query-plan
+  - explain
+  - acid
+  - transactions
+  - savepoints
+  - idempotency
+  - optimistic-locking
+  - wal
+  - retry
+  - backup
+  - integrity-check
+dependencies:
+  python: ">=3.11"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/database_reliability.py
+    - src/index_analysis.py
+    - src/concurrency_control.py
+  tests:
+    - tests/test_database_reliability.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: reliable-sqlite-transfer-system
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 28
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 28-passed
+next_lesson:
+  id: data-08
+  title: API, ETL/ELT, Veri Doğrulama, Şema, Versiyonlama ve Veri Capstone
