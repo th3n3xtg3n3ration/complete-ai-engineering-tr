@@ -1,0 +1,80 @@
+id: data-08
+slug: api-etl-elt-validation-schema-versioning-data-capstone
+title: API, ETL/ELT, Veri Doğrulama, Şema, Versiyonlama ve Veri Capstone
+module: data-analysis-sql-data-engineering
+module_order: 5
+lesson_order: 8
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 24
+prerequisites:
+  - data-01
+  - data-02
+  - data-03
+  - data-04
+  - data-05
+  - data-06
+  - data-07
+learning_outcomes:
+  - API kaynaklarında timeout, retry, rate limit ve pagination uygular.
+  - Değiştirilemez ve checksum kontrollü raw snapshot üretir.
+  - Sürümlü veri sözleşmeleri ve uyumluluk kontrolleri geliştirir.
+  - Geçersiz kayıtları ayrıntılı nedenlerle quarantine eder.
+  - Idempotent ve incremental warehouse yükleme mantığı kurar.
+  - Bronze, silver ve gold katmanlarında lineage oluşturur.
+  - Dataset version ve manifest ile tekrarlanabilir veri ürünü yayımlar.
+  - Uçtan uca test edilen bir ETL/ELT pipeline'ı geliştirir.
+topics:
+  - api
+  - rest
+  - pagination
+  - retry
+  - exponential-backoff
+  - rate-limiting
+  - etl
+  - elt
+  - bronze-silver-gold
+  - data-contracts
+  - schema-validation
+  - schema-evolution
+  - quarantine
+  - idempotency
+  - incremental-load
+  - watermark
+  - upsert
+  - data-lineage
+  - data-versioning
+  - checksums
+  - manifests
+  - sqlite
+  - data-capstone
+dependencies:
+  python: ">=3.11"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/api_client.py
+    - src/data_contracts.py
+    - src/data_pipeline.py
+  tests:
+    - tests/test_data_capstone.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: versioned-api-to-analytics-data-product
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 31
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 31-passed
+next_module:
+  id: module-06
+  title: Klasik Makine Öğrenmesi
