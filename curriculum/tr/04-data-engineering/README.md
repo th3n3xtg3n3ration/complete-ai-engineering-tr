@@ -1,5 +1,9 @@
-# Veri Analizi, SQL ve Veri Mühendisliği
+# Eski Yol — Veri Analizi, SQL ve Veri Mühendisliği
 
-**Durum:** Planned
+Bu klasör önceki modül numaralandırmasından kalan bir taslaktır.
 
-Bu modülün ayrıntılı dersleri yol haritasına göre eklenecektir. Boş başlıklar yerine tamamlanan ve test edilen dersler aşamalı olarak yayımlanır.
+Güncel ve kanonik modül yolu:
+
+[Modül 5 — Veri Analizi, SQL ve Veri Mühendisliği](../05-data-analysis-sql-data-engineering/README.md)
+
+Yeni dersler yalnızca kanonik Modül 5 klasöründe yayımlanacaktır.
