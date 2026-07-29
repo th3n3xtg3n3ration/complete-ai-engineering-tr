@@ -9,10 +9,10 @@ Bu modül; ham veriyi güvenilir, tekrarlanabilir ve modellemeye hazır veri ür
 1. [NumPy Dizileri, Vektörleştirme ve Broadcasting](01-numpy-arrays-vectorization-broadcasting/README.md) — ndarray, dtype, shape, axis, broadcasting, vektörleştirme, sayısal kararlılık ve sızıntısız özellik hattı
 2. [pandas Series, DataFrame, İndeksleme ve GroupBy](02-pandas-series-dataframe-indexing-groupby/README.md) — index alignment, loc/iloc, nullable dtype, GroupBy, güvenli merge, duplicate yönetimi ve sızıntısız tabular pipeline
 3. [Polars, Lazy Execution ve Kolon Tabanlı Performans](03-polars-lazy-execution-columnar-performance/README.md) — expression API, LazyFrame, query planı, pushdown, streaming, kardinalite doğrulaması ve eager/lazy benchmark
+4. [Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı](04-data-cleaning-missing-outliers-encoding-leakage/README.md) — veri kalite profili, MCAR/MAR/MNAR, IQR, robust z-score, rare/unknown category, fit/transform ve leakage denetimi
 
 ## Sıradaki dersler
 
-4. Veri temizleme, eksik değer, aykırı değer, encoding ve veri sızıntısı
 5. Keşifsel veri analizi ve görselleştirme
 6. SQL temelleri, JOIN, CTE ve window function
 7. İndeksler, transaction, query plan ve veritabanı güvenilirliği
