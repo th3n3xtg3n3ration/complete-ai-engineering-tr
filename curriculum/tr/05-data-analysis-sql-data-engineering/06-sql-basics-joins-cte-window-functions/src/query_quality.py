@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
-from collections.abc import Iterable, Mapping, Sequence
-from dataclasses import dataclass
 import re
 import sqlite3
+from collections.abc import Iterable, Mapping, Sequence
+from dataclasses import dataclass
 from typing import Any
 
 
@@ -53,12 +53,19 @@ def explain_query_plan(
     validate_read_only_sql(sql)
     rows = connection.execute(f"EXPLAIN QUERY PLAN {sql}", parameters).fetchall()
     return [
-        QueryPlanStep(step_id=int(row[0]), parent_id=int(row[1]), detail=str(row[3]))
+        QueryPlanStep(
+            step_id=int(row[0]),
+            parent_id=int(row[1]),
+            detail=str(row[3]),
+        )
         for row in rows
     ]
 
 
-def assert_expected_columns(rows: Sequence[Mapping[str, Any]], expected: Iterable[str]) -> None:
+def assert_expected_columns(
+    rows: Sequence[Mapping[str, Any]],
+    expected: Iterable[str],
+) -> None:
     """Validate the exact output schema for non-empty query results."""
 
     expected_columns = list(expected)
@@ -71,7 +78,10 @@ def assert_expected_columns(rows: Sequence[Mapping[str, Any]], expected: Iterabl
         )
 
 
-def assert_unique_key(rows: Sequence[Mapping[str, Any]], key_columns: Iterable[str]) -> None:
+def assert_unique_key(
+    rows: Sequence[Mapping[str, Any]],
+    key_columns: Iterable[str],
+) -> None:
     """Raise when a query result violates its expected grain."""
 
     keys = list(key_columns)
@@ -85,7 +95,10 @@ def assert_unique_key(rows: Sequence[Mapping[str, Any]], key_columns: Iterable[s
         seen.add(key)
 
 
-def assert_non_negative(rows: Sequence[Mapping[str, Any]], columns: Iterable[str]) -> None:
+def assert_non_negative(
+    rows: Sequence[Mapping[str, Any]],
+    columns: Iterable[str],
+) -> None:
     """Validate non-negative analytical measures."""
 
     selected = list(columns)
