@@ -7,10 +7,10 @@ Bu modül; ham veriyi güvenilir, tekrarlanabilir ve modellemeye hazır veri ür
 ## Tamamlanan dersler
 
 1. [NumPy Dizileri, Vektörleştirme ve Broadcasting](01-numpy-arrays-vectorization-broadcasting/README.md) — ndarray, dtype, shape, axis, broadcasting, vektörleştirme, sayısal kararlılık ve sızıntısız özellik hattı
+2. [pandas Series, DataFrame, İndeksleme ve GroupBy](02-pandas-series-dataframe-indexing-groupby/README.md) — index alignment, loc/iloc, nullable dtype, GroupBy, güvenli merge, duplicate yönetimi ve sızıntısız tabular pipeline
 
 ## Sıradaki dersler
 
-2. pandas Series, DataFrame, indeksleme ve GroupBy
 3. Polars, lazy execution ve kolon tabanlı performans
 4. Veri temizleme, eksik değer, aykırı değer, encoding ve veri sızıntısı
 5. Keşifsel veri analizi ve görselleştirme
