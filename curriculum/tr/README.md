@@ -8,7 +8,7 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 | 01 | Python | Tamamlandı |
 | 02 | Git ve GitHub | Tamamlandı |
 | 03 | [Bilgisayar Bilimleri ve Yazılım Mühendisliği](03-computer-science/README.md) | Tamamlandı |
-| 04 | [Yapay Zekâ Matematiği](04-ai-mathematics/README.md) | Devam ediyor |
+| 04 | [Yapay Zekâ Matematiği](04-ai-mathematics/README.md) | Tamamlandı |
 | 05 | Veri Analizi, SQL ve Veri Mühendisliği | Planlandı |
 | 06 | Klasik Makine Öğrenmesi | Planlandı |
 | 07 | Derin Öğrenme ve PyTorch | Planlandı |
@@ -24,6 +24,8 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Yapay Zekâ Matematiği — Ders 7: İstatistiksel Çıkarım, Maximum Likelihood ve Hipotez Testi](04-ai-mathematics/07-statistical-inference-maximum-likelihood-hypothesis-testing/README.md) tamamlandı.
+[Yapay Zekâ Matematiği — Ders 8: Entropi, Cross-Entropy, KL Divergence ve Matematik Capstone](04-ai-mathematics/08-entropy-cross-entropy-kl-divergence-math-capstone/README.md) tamamlandı.
 
-Sıradaki ders: **Entropi, Cross-Entropy, KL Divergence ve Matematik Capstone**.
+**Yapay Zekâ Matematiği modülündeki sekiz dersin tamamı yayımlandı.**
+
+Sıradaki modül: **Veri Analizi, SQL ve Veri Mühendisliği**.
