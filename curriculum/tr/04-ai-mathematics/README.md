@@ -7,10 +7,10 @@ Bu modül; yapay zekâ modellerini yalnızca kullanan değil, matematiksel davra
 ## Tamamlanan dersler
 
 1. [Fonksiyonlar, Logaritmalar ve Grafikler](01-functions-logarithms-graphs/README.md) — fonksiyon aileleri, logaritma, grafik okuma, aktivasyon ve loss fonksiyonları
+2. [Vektörler, Matrisler, Tensörler, Normlar ve Dot Product](02-vectors-matrices-tensors-norms-dot-product/README.md) — shape, rank, axis, vektör ve matris işlemleri, normlar, cosine similarity ve embedding araması
 
 ## Sıradaki dersler
 
-2. Vektörler, matrisler, tensörler, normlar ve dot product
 3. Lineer dönüşümler, özdeğer, özvektör, SVD ve PCA
 4. Türev, kısmi türev, zincir kuralı, Jacobian ve Hessian sezgisi
 5. Gradient descent, SGD, momentum ve optimizasyon
