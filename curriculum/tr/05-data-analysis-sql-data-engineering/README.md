@@ -12,10 +12,10 @@ Bu modül; ham veriyi güvenilir, tekrarlanabilir ve modellemeye hazır veri ür
 4. [Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı](04-data-cleaning-missing-outliers-encoding-leakage/README.md) — veri kalite profili, MCAR/MAR/MNAR, IQR, robust z-score, rare/unknown category, fit/transform ve leakage denetimi
 5. [Keşifsel Veri Analizi ve Görselleştirme](05-exploratory-data-analysis-visualization/README.md) — descriptive statistics, missingness, korelasyon, segment/zaman analizi, Matplotlib ve tekrarlanabilir EDA raporu
 6. [SQL Temelleri, JOIN, CTE ve Window Function](06-sql-basics-joins-cte-window-functions/README.md) — ilişkisel grain, constraint, parametreli sorgu, JOIN kardinalitesi, CTE, anti-join, ranking, LAG ve running total
+7. [İndeksler, Transaction, Query Plan ve Veritabanı Güvenilirliği](07-indexes-transactions-query-plans-database-reliability/README.md) — B-tree ve birleşik indeks, query planı, ACID, savepoint, idempotency, optimistic locking, WAL, backup ve integrity check
 
 ## Sıradaki dersler
 
-7. İndeksler, transaction, query plan ve veritabanı güvenilirliği
 8. API, ETL/ELT, veri doğrulama, şema, versiyonlama ve veri capstone
 
 ## Modül çıktıları
