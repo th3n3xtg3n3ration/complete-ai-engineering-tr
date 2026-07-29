@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Veri Analizi, SQL ve Veri Mühendisliği — Ders 1: NumPy Dizileri, Vektörleştirme ve Broadcasting](05-data-analysis-sql-data-engineering/01-numpy-arrays-vectorization-broadcasting/README.md) tamamlandı.
+[Veri Analizi, SQL ve Veri Mühendisliği — Ders 2: pandas Series, DataFrame, İndeksleme ve GroupBy](05-data-analysis-sql-data-engineering/02-pandas-series-dataframe-indexing-groupby/README.md) tamamlandı.
 
-Sıradaki ders: **pandas Series, DataFrame, İndeksleme ve GroupBy**.
+Sıradaki ders: **Polars, Lazy Execution ve Kolon Tabanlı Performans**.
