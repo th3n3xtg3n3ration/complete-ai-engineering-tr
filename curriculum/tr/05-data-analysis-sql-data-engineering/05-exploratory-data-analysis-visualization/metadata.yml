@@ -1,0 +1,69 @@
+id: data-05
+slug: exploratory-data-analysis-visualization
+title: Keşifsel Veri Analizi ve Görselleştirme
+module: data-analysis-sql-data-engineering
+module_order: 5
+lesson_order: 5
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 20
+prerequisites:
+  - data-01
+  - data-02
+  - data-03
+  - data-04
+learning_outcomes:
+  - Yapısal ve veri kalitesi profili üretir.
+  - Sayısal ve kategorik dağılımları sistematik biçimde özetler.
+  - Korelasyon, aykırı değer, segment ve zaman analizleri uygular.
+  - Matplotlib ile doğru etiketlenmiş analitik grafikler oluşturur.
+  - Yanıltıcı görselleştirme ve nedensellik hatalarını teşhis eder.
+  - Markdown, CSV, JSON ve PNG artefaktlarından tekrarlanabilir EDA raporu üretir.
+topics:
+  - exploratory-data-analysis
+  - descriptive-statistics
+  - distributions
+  - missingness
+  - outliers
+  - correlation
+  - segmentation
+  - temporal-analysis
+  - matplotlib
+  - histogram
+  - scatter-plot
+  - bar-chart
+  - heatmap
+  - reproducibility
+dependencies:
+  python: ">=3.11"
+  numpy: ">=2.0"
+  pandas: ">=2.2"
+  matplotlib: ">=3.9"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/eda_foundations.py
+    - src/visualization.py
+    - src/eda_report.py
+  tests:
+    - tests/test_eda.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: reproducible-customer-eda-report
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 23
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 23-passed
+next_lesson:
+  id: data-06
+  title: SQL Temelleri, JOIN, CTE ve Window Function
