@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Veri Analizi, SQL ve Veri Mühendisliği — Ders 3: Polars, Lazy Execution ve Kolon Tabanlı Performans](05-data-analysis-sql-data-engineering/03-polars-lazy-execution-columnar-performance/README.md) tamamlandı.
+[Veri Analizi, SQL ve Veri Mühendisliği — Ders 4: Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı](05-data-analysis-sql-data-engineering/04-data-cleaning-missing-outliers-encoding-leakage/README.md) tamamlandı.
 
-Sıradaki ders: **Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı**.
+Sıradaki ders: **Keşifsel Veri Analizi ve Görselleştirme**.
