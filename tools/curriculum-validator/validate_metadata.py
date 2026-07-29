@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
+import sys
 from datetime import date
 from pathlib import Path
-import sys
 from typing import Any
 
 import yaml
@@ -55,7 +55,7 @@ def validate_file(path: Path) -> list[str]:
         errors.append(f"{path}: geçersiz status: {data.get('status')}")
 
     duration = _first_present(data, "duration_hours", "estimated_hours")
-    if not isinstance(duration, (int, float)) or duration <= 0:
+    if not isinstance(duration, int | float) or duration <= 0:
         errors.append(
             f"{path}: duration_hours veya estimated_hours pozitif sayı olmalıdır."
         )
@@ -69,7 +69,7 @@ def validate_file(path: Path) -> list[str]:
         errors.append(f"{path}: outcomes veya learning_outcomes dolu liste olmalıdır.")
 
     artifacts = data.get("artifacts")
-    if not isinstance(artifacts, (list, dict)):
+    if not isinstance(artifacts, list | dict):
         errors.append(f"{path}: artifacts liste veya mapping olmalıdır.")
 
     maintainers = data.get("maintainers")
