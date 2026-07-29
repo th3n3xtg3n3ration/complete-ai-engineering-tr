@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Yapay Zekâ Matematiği — Ders 1: Fonksiyonlar, Logaritmalar ve Grafikler](04-ai-mathematics/01-functions-logarithms-graphs/README.md) tamamlandı.
+[Yapay Zekâ Matematiği — Ders 2: Vektörler, Matrisler, Tensörler, Normlar ve Dot Product](04-ai-mathematics/02-vectors-matrices-tensors-norms-dot-product/README.md) tamamlandı.
 
-Sıradaki ders: **Vektörler, Matrisler, Tensörler, Normlar ve Dot Product**.
+Sıradaki ders: **Lineer Dönüşümler, Özdeğer, Özvektör, SVD ve PCA**.
