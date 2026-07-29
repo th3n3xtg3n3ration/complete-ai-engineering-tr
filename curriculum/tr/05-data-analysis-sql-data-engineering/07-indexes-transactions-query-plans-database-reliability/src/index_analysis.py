@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
+import sqlite3
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
-import sqlite3
 from typing import Any
 
 
@@ -67,7 +67,10 @@ def plan_uses_index(plan: Sequence[QueryPlanStep], index_name: str | None = None
 
     details = [step.detail.upper() for step in plan]
     if index_name is None:
-        return any("USING INDEX" in detail or "USING COVERING INDEX" in detail for detail in details)
+        return any(
+            "USING INDEX" in detail or "USING COVERING INDEX" in detail
+            for detail in details
+        )
     expected = index_name.upper()
     return any(expected in detail for detail in details)
 
