@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
+import sqlite3
 from collections.abc import Iterator, Mapping, Sequence
 from contextlib import contextmanager
 from pathlib import Path
-import sqlite3
 from typing import Any
 
 SCHEMA_SQL = """
@@ -151,7 +151,8 @@ def row_count(connection: sqlite3.Connection, table_name: str) -> int:
     allowed = {"customers", "products", "orders", "order_items"}
     if table_name not in allowed:
         raise ValueError(f"unsupported table: {table_name}")
-    return int(connection.execute(f"SELECT COUNT(*) FROM {table_name}").fetchone()[0])
+    query = f"SELECT COUNT(*) FROM {table_name}"
+    return int(connection.execute(query).fetchone()[0])
 
 
 if __name__ == "__main__":
