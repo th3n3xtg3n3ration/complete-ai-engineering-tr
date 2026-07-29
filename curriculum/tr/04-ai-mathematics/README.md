@@ -12,10 +12,10 @@ Bu modül; yapay zekâ modellerini yalnızca kullanan değil, matematiksel davra
 4. [Türev, Kısmi Türev, Zincir Kuralı, Jacobian ve Hessian](04-derivatives-chain-rule-jacobian-hessian/README.md) — sayısal türev, gradient, hesaplama grafiği, reverse-mode autodiff, Jacobian, Hessian ve gradient checking
 5. [Gradient Descent, SGD, Momentum ve Optimizasyon](05-gradient-descent-sgd-momentum-optimization/README.md) — mini-batch eğitim, momentum, Nesterov, AdaGrad, RMSProp, Adam, schedule, clipping ve optimizasyon tanılama
 6. [Olasılık, Dağılımlar, Beklenti, Varyans ve Bayes](06-probability-distributions-expectation-variance-bayes/README.md) — koşullu olasılık, dağılımlar, momentler, LLN, CLT, Bayes, Gaussian Naive Bayes, Monte Carlo ve calibration
+7. [İstatistiksel Çıkarım, Maximum Likelihood ve Hipotez Testi](07-statistical-inference-maximum-likelihood-hypothesis-testing/README.md) — estimator kalitesi, standard error, confidence interval, bootstrap, MLE, MAP, p-value, effect size, permutation test ve multiple testing
 
 ## Sıradaki dersler
 
-7. İstatistiksel çıkarım, maximum likelihood ve hipotez testi
 8. Entropi, cross-entropy, KL divergence ve matematik capstone
 
 ## Modül çıktıları
