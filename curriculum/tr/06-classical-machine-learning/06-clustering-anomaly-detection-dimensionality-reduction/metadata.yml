@@ -1,0 +1,35 @@
+id: tr-06-06
+title: Clustering, Anomaly Detection ve Boyut İndirgeme
+slug: clustering-anomaly-detection-dimensionality-reduction
+module: 06-classical-machine-learning
+order: 6
+language: tr
+level: intermediate
+duration_hours: 14
+prerequisites:
+  - preprocessing ve pipeline kullanımı
+  - temel lineer cebir
+  - model değerlendirme
+learning_outcomes:
+  - K-Means, Agglomerative Clustering ve DBSCAN yöntemlerini karşılaştırmak
+  - clustering sonuçlarını metrik, stabilite ve iş anlamıyla değerlendirmek
+  - Isolation Forest, LOF ve One-Class SVM ile anomali tespiti yapmak
+  - maliyet ve kapasiteye göre anomali eşiği seçmek
+  - PCA, SVD ve explained variance ilişkisini açıklamak
+  - leakage-safe unsupervised pipeline geliştirmek
+tags:
+  - clustering
+  - k-means
+  - dbscan
+  - anomaly-detection
+  - isolation-forest
+  - lof
+  - one-class-svm
+  - pca
+  - dimensionality-reduction
+  - unsupervised-learning
+assessment:
+  quiz_questions: 20
+  exercises: 60
+  interview_questions: 80
+  assignment: true
