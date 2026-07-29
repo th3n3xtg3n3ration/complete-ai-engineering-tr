@@ -9,7 +9,7 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 | 02 | Git ve GitHub | Tamamlandı |
 | 03 | [Bilgisayar Bilimleri ve Yazılım Mühendisliği](03-computer-science/README.md) | Tamamlandı |
 | 04 | [Yapay Zekâ Matematiği](04-ai-mathematics/README.md) | Tamamlandı |
-| 05 | [Veri Analizi, SQL ve Veri Mühendisliği](05-data-analysis-sql-data-engineering/README.md) | Devam ediyor |
+| 05 | [Veri Analizi, SQL ve Veri Mühendisliği](05-data-analysis-sql-data-engineering/README.md) | Tamamlandı |
 | 06 | Klasik Makine Öğrenmesi | Planlandı |
 | 07 | Derin Öğrenme ve PyTorch | Planlandı |
 | 08 | Uygulamalı AI | Planlandı |
@@ -24,6 +24,8 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Veri Analizi, SQL ve Veri Mühendisliği — Ders 7: İndeksler, Transaction, Query Plan ve Veritabanı Güvenilirliği](05-data-analysis-sql-data-engineering/07-indexes-transactions-query-plans-database-reliability/README.md) tamamlandı.
+[Veri Analizi, SQL ve Veri Mühendisliği — Ders 8: API, ETL/ELT, Veri Doğrulama, Şema, Versiyonlama ve Veri Capstone](05-data-analysis-sql-data-engineering/08-api-etl-elt-validation-schema-versioning-data-capstone/README.md) tamamlandı.
 
-Sıradaki ders: **API, ETL/ELT, Veri Doğrulama, Şema, Versiyonlama ve Veri Capstone**.
+**Veri Analizi, SQL ve Veri Mühendisliği modülündeki sekiz dersin tamamı yayımlandı.**
+
+Sıradaki modül: **Klasik Makine Öğrenmesi**.
