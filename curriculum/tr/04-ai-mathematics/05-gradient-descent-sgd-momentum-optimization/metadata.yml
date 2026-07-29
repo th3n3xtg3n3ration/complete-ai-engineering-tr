@@ -47,6 +47,7 @@ artifacts:
     - src/optimization_diagnostics.py
   tests:
     - tests/test_optimizers.py
+    - tests/test_reproducibility.py
   exercises: exercises.md
   quiz: quiz.md
   assignment: assignment.md
