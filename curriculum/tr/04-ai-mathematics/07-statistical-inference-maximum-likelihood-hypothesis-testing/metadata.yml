@@ -1,0 +1,71 @@
+id: ai-math-07
+slug: statistical-inference-maximum-likelihood-hypothesis-testing
+title: İstatistiksel Çıkarım, Maximum Likelihood ve Hipotez Testi
+module: ai-mathematics
+module_order: 4
+lesson_order: 7
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 22
+prerequisites:
+  - ai-math-01
+  - ai-math-02
+  - ai-math-03
+  - ai-math-04
+  - ai-math-05
+  - ai-math-06
+learning_outcomes:
+  - Population, sample, parameter, statistic ve sampling distribution kavramlarını ayırt eder.
+  - Bias, variance, consistency ve standard error üzerinden estimator kalitesini değerlendirir.
+  - Analitik ve bootstrap confidence interval üretir ve doğru yorumlar.
+  - Bernoulli ve Gaussian modellerinde maximum likelihood estimation uygular.
+  - MLE ile MAP tahminini prior etkisi üzerinden karşılaştırır.
+  - Hipotez testi, p-value, Type I/II error ve statistical power kavramlarını uygular.
+  - Effect size ile statistical ve practical significance ayrımını yapar.
+  - Permutation test ve multiple-testing düzeltmelerini saf Python ile geliştirir.
+  - A/B testlerinde peeking, sample ratio mismatch ve analysis-unit hatalarını teşhis eder.
+topics:
+  - statistical-inference
+  - estimation
+  - sampling-distribution
+  - standard-error
+  - confidence-interval
+  - bootstrap
+  - likelihood
+  - log-likelihood
+  - maximum-likelihood-estimation
+  - map-estimation
+  - hypothesis-testing
+  - p-value
+  - type-i-error
+  - type-ii-error
+  - statistical-power
+  - effect-size
+  - ab-testing
+  - permutation-test
+  - multiple-testing
+  - bonferroni
+  - benjamini-hochberg
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/statistical_inference.py
+    - src/maximum_likelihood.py
+    - src/hypothesis_testing.py
+  tests:
+    - tests/test_statistical_inference.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: pure-python-ab-test-inference-package
+assessment:
+  quiz_questions: 20
+  exercise_count: 90
+  test_count: 18
+next_lesson:
+  id: ai-math-08
+  title: Entropi, Cross-Entropy, KL Divergence ve Matematik Capstone
