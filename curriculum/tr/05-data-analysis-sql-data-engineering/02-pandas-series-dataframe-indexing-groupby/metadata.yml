@@ -1,0 +1,64 @@
+id: data-02
+slug: pandas-series-dataframe-indexing-groupby
+title: pandas Series, DataFrame, İndeksleme ve GroupBy
+module: data-analysis-sql-data-engineering
+module_order: 5
+lesson_order: 2
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 20
+prerequisites:
+  - data-01
+learning_outcomes:
+  - Series, DataFrame ve Index hizalama davranışını açıklar.
+  - loc, iloc ve boolean mask ile güvenli seçim yapar.
+  - Nullable, categorical ve datetime dtype'larını yönetir.
+  - GroupBy agg, transform ve filter işlemlerini uygular.
+  - Merge kardinalitesini doğrular ve satır çoğalmasını teşhis eder.
+  - Eksik ve duplicate veriyi açık iş kurallarıyla işler.
+  - Eğitim verisinde fit edilen sızıntısız tabular pipeline geliştirir.
+  - pandas ile test edilen analitik veri ürünü oluşturur.
+topics:
+  - pandas
+  - series
+  - dataframe
+  - index-alignment
+  - loc
+  - iloc
+  - boolean-masks
+  - nullable-dtypes
+  - categorical-data
+  - datetime
+  - missing-data
+  - duplicates
+  - groupby
+  - aggregation
+  - transform
+  - merge
+  - join
+  - concat
+  - data-leakage
+  - fit-transform
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/pandas_foundations.py
+    - src/dataframe_pipeline.py
+    - src/customer_analytics.py
+  tests:
+    - tests/test_pandas_foundations.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: production-customer-analytics-pipeline
+assessment:
+  quiz_questions: 20
+  exercise_count: 80
+  test_count: 20
+next_lesson:
+  id: data-03
+  title: Polars, Lazy Execution ve Kolon Tabanlı Performans
