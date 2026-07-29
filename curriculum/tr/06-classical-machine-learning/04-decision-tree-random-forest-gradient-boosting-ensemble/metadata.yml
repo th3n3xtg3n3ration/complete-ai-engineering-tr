@@ -1,0 +1,70 @@
+id: ml-04
+slug: decision-tree-random-forest-gradient-boosting-ensemble
+title: Decision Tree, Random Forest, Gradient Boosting ve Ensemble
+module: classical-machine-learning
+module_order: 6
+lesson_order: 4
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 26
+prerequisites:
+  - ml-01
+  - ml-02
+  - ml-03
+learning_outcomes:
+  - Gini, entropy ve information gain hesaplar.
+  - Decision tree karmaşıklığını pruning ile kontrol eder.
+  - Random forest ve OOB değerlendirme uygular.
+  - AdaBoost ve gradient boosting modellerini karşılaştırır.
+  - Voting ve stacking ensemble geliştirir.
+  - Impurity ve permutation importance yorumlar.
+  - Cross-validation ve generalization gap raporu üretir.
+topics:
+  - decision-tree
+  - cart
+  - gini
+  - entropy
+  - information-gain
+  - pruning
+  - bagging
+  - random-forest
+  - out-of-bag
+  - adaboost
+  - gradient-boosting
+  - histogram-boosting
+  - voting
+  - stacking
+  - feature-importance
+  - permutation-importance
+dependencies:
+  python: ">=3.11"
+  numpy: ">=2.0"
+  scikit-learn: ">=1.7,<2"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/tree_models.py
+    - src/ensemble_models.py
+    - src/ensemble_evaluation.py
+  tests:
+    - tests/test_ensembles.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: reliable-tree-ensemble-system
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 32
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 32-passed
+next_lesson:
+  id: ml-05
+  title: SVM, Margin, Kernel ve Ölçekleme

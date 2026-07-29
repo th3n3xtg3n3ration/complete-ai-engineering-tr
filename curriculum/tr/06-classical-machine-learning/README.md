@@ -9,10 +9,10 @@ Bu modül; iş problemini doğru tanımlayan, leakage-safe deneyler kuran, klasi
 1. [Problem Tanımı, Baseline ve Deney Tasarımı](01-problem-definition-baselines-experiment-design/README.md) — prediction unit, target/horizon, feature availability, random/temporal/entity split, leakage, baseline, metrik ve bootstrap
 2. [Linear Regression, Regularization ve Regresyon Değerlendirmesi](02-linear-regression-regularization-evaluation/README.md) — normal equation, gradient descent, MAE/RMSE/R², Ridge, Lasso, Elastic Net, polynomial feature, residual, VIF ve leakage-safe pipeline
 3. [Logistic Regression, Sınıflandırma Metrikleri, Threshold ve Calibration](03-logistic-regression-metrics-threshold-calibration/README.md) — sigmoid, log loss, L1/L2, class weight, ROC-AUC, average precision, maliyet duyarlı threshold, Brier score, Platt scaling ve isotonic calibration
+4. [Decision Tree, Random Forest, Gradient Boosting ve Ensemble](04-decision-tree-random-forest-gradient-boosting-ensemble/README.md) — CART, Gini, entropy, pruning, bagging, random forest, OOB, AdaBoost, gradient boosting, voting, stacking ve permutation importance
 
 ## Sıradaki dersler
 
-4. Decision tree, random forest, gradient boosting ve ensemble
 5. SVM, margin, kernel ve ölçekleme
 6. Clustering, anomaly detection ve dimensionality reduction
 7. Model açıklanabilirliği, permutation importance, SHAP ve hata analizi

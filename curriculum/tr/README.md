@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Klasik Makine Öğrenmesi — Ders 3: Logistic Regression, Sınıflandırma Metrikleri, Threshold ve Calibration](06-classical-machine-learning/03-logistic-regression-metrics-threshold-calibration/README.md) tamamlandı.
+[Klasik Makine Öğrenmesi — Ders 4: Decision Tree, Random Forest, Gradient Boosting ve Ensemble](06-classical-machine-learning/04-decision-tree-random-forest-gradient-boosting-ensemble/README.md) tamamlandı.
 
-Sıradaki ders: **Decision Tree, Random Forest, Gradient Boosting ve Ensemble**.
+Sıradaki ders: **SVM, Margin, Kernel ve Ölçekleme**.
