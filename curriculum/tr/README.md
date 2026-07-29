@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Veri Analizi, SQL ve Veri Mühendisliği — Ders 5: Keşifsel Veri Analizi ve Görselleştirme](05-data-analysis-sql-data-engineering/05-exploratory-data-analysis-visualization/README.md) tamamlandı.
+[Veri Analizi, SQL ve Veri Mühendisliği — Ders 6: SQL Temelleri, JOIN, CTE ve Window Function](05-data-analysis-sql-data-engineering/06-sql-basics-joins-cte-window-functions/README.md) tamamlandı.
 
-Sıradaki ders: **SQL Temelleri, JOIN, CTE ve Window Function**.
+Sıradaki ders: **İndeksler, Transaction, Query Plan ve Veritabanı Güvenilirliği**.
