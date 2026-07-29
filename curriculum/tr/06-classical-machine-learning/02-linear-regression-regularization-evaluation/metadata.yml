@@ -1,0 +1,76 @@
+id: ml-02
+slug: linear-regression-regularization-evaluation
+title: Linear Regression, Regularization ve Regresyon Değerlendirmesi
+module: classical-machine-learning
+module_order: 6
+lesson_order: 2
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 24
+prerequisites:
+  - ml-01
+  - data-01
+  - data-02
+  - data-04
+  - ai-math-04
+  - ai-math-05
+learning_outcomes:
+  - Normal equation ve gradient descent ile linear regression geliştirir.
+  - MAE, MSE, RMSE, R² ve adjusted R² metriklerini yorumlar.
+  - Ridge, Lasso ve Elastic Net modellerini karşılaştırır.
+  - Polynomial feature ve regularization ilişkisini değerlendirir.
+  - Residual, heteroskedasticity ve multicollinearity analizi uygular.
+  - Leakage-safe regresyon pipeline'ı geliştirir.
+  - Global ve slice bazlı regresyon raporu üretir.
+topics:
+  - linear-regression
+  - ordinary-least-squares
+  - normal-equation
+  - gradient-descent
+  - regression-metrics
+  - ridge
+  - lasso
+  - elastic-net
+  - regularization
+  - feature-scaling
+  - polynomial-regression
+  - bias-variance
+  - residual-analysis
+  - heteroskedasticity
+  - multicollinearity
+  - vif
+  - scikit-learn-pipeline
+  - column-transformer
+dependencies:
+  python: ">=3.11"
+  numpy: ">=2.0"
+  pandas: ">=2.2"
+  scikit-learn: ">=1.7,<2"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/linear_models.py
+    - src/regression_diagnostics.py
+    - src/regression_pipeline.py
+  tests:
+    - tests/test_regression.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: leakage-safe-regularized-regression-system
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 31
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 31-passed
+next_lesson:
+  id: ml-03
+  title: Logistic Regression, Sınıflandırma Metrikleri, Threshold ve Calibration

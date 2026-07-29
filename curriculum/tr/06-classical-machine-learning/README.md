@@ -7,10 +7,10 @@ Bu modül; iş problemini doğru tanımlayan, leakage-safe deneyler kuran, klasi
 ## Tamamlanan dersler
 
 1. [Problem Tanımı, Baseline ve Deney Tasarımı](01-problem-definition-baselines-experiment-design/README.md) — prediction unit, target/horizon, feature availability, random/temporal/entity split, leakage, baseline, metrik ve bootstrap
+2. [Linear Regression, Regularization ve Regresyon Değerlendirmesi](02-linear-regression-regularization-evaluation/README.md) — normal equation, gradient descent, MAE/RMSE/R², Ridge, Lasso, Elastic Net, polynomial feature, residual, VIF ve leakage-safe pipeline
 
 ## Sıradaki dersler
 
-2. Linear regression, regularization ve regresyon değerlendirmesi
 3. Logistic regression, sınıflandırma metrikleri, threshold ve calibration
 4. Decision tree, random forest, gradient boosting ve ensemble
 5. SVM, margin, kernel ve ölçekleme

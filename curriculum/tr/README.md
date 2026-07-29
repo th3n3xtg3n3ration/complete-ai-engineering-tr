@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Klasik Makine Öğrenmesi — Ders 1: Problem Tanımı, Baseline ve Deney Tasarımı](06-classical-machine-learning/01-problem-definition-baselines-experiment-design/README.md) tamamlandı.
+[Klasik Makine Öğrenmesi — Ders 2: Linear Regression, Regularization ve Regresyon Değerlendirmesi](06-classical-machine-learning/02-linear-regression-regularization-evaluation/README.md) tamamlandı.
 
-Sıradaki ders: **Linear Regression, Regularization ve Regresyon Değerlendirmesi**.
+Sıradaki ders: **Logistic Regression, Sınıflandırma Metrikleri, Threshold ve Calibration**.
