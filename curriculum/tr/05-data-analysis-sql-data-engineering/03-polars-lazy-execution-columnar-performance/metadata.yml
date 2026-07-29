@@ -1,0 +1,65 @@
+id: data-03
+slug: polars-lazy-execution-columnar-performance
+title: Polars, Lazy Execution ve Kolon Tabanlı Performans
+module: data-analysis-sql-data-engineering
+module_order: 5
+lesson_order: 3
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 20
+prerequisites:
+  - data-01
+  - data-02
+learning_outcomes:
+  - Polars kolon tabanlı veri modelini açıklar.
+  - Eager ve lazy yürütme modellerini karşılaştırır.
+  - Native expression API ile dönüşüm geliştirir.
+  - Predicate ve projection pushdown davranışını yorumlar.
+  - Query planı, streaming ve sink operasyonlarını uygular.
+  - Join kardinalitesi ve deterministik aggregation kurar.
+  - Eager ve lazy pipeline'ları doğruluk ve performans açısından karşılaştırır.
+topics:
+  - polars
+  - dataframe
+  - lazyframe
+  - expressions
+  - columnar-execution
+  - apache-arrow
+  - query-optimization
+  - predicate-pushdown
+  - projection-pushdown
+  - streaming
+  - group-by
+  - join-validation
+  - parquet
+  - benchmarking
+dependencies:
+  python: ">=3.10"
+  polars: ">=1.43,<2"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/polars_foundations.py
+    - src/lazy_pipeline.py
+    - src/performance_comparison.py
+  tests:
+    - tests/test_polars_foundations.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: lazy-columnar-order-analytics
+assessment:
+  quiz_questions: 20
+  exercise_count: 70
+  test_count: 22
+validation:
+  syntax_checked: true
+  runtime_test_status: requires-polars-environment
+next_lesson:
+  id: data-04
+  title: Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı
