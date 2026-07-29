@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from collections.abc import Callable
 import sqlite3
+from collections.abc import Callable
 from time import sleep
 from typing import TypeVar
 
@@ -48,7 +48,11 @@ def busy_timeout_milliseconds(connection: sqlite3.Connection) -> int:
     return int(connection.execute("PRAGMA busy_timeout").fetchone()[0])
 
 
-def checkpoint_wal(connection: sqlite3.Connection, *, truncate: bool = False) -> tuple[int, int, int]:
+def checkpoint_wal(
+    connection: sqlite3.Connection,
+    *,
+    truncate: bool = False,
+) -> tuple[int, int, int]:
     """Run a passive or truncating WAL checkpoint and return SQLite counters."""
 
     mode = "TRUNCATE" if truncate else "PASSIVE"
