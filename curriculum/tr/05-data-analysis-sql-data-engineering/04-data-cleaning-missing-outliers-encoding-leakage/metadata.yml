@@ -1,0 +1,70 @@
+id: data-04
+slug: data-cleaning-missing-outliers-encoding-leakage
+title: Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı
+module: data-analysis-sql-data-engineering
+module_order: 5
+lesson_order: 4
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 22
+prerequisites:
+  - data-01
+  - data-02
+  - data-03
+learning_outcomes:
+  - Veri kalitesini completeness, validity, consistency ve uniqueness boyutlarıyla değerlendirir.
+  - Eksik değer mekanizmalarını ve imputation stratejilerini yorumlar.
+  - IQR ve robust z-score ile aykırı değerleri teşhis eder.
+  - Missing, rare ve unknown kategorileri güvenli biçimde kodlar.
+  - Preprocessing istatistiklerini yalnızca eğitim verisinde fit eder.
+  - Target, temporal, entity ve preprocessing leakage risklerini denetler.
+  - Test edilen sızıntısız tabular preprocessing paketi geliştirir.
+topics:
+  - data-cleaning
+  - data-quality
+  - missing-values
+  - imputation
+  - outliers
+  - iqr
+  - robust-z-score
+  - clipping
+  - categorical-encoding
+  - one-hot-encoding
+  - rare-categories
+  - unknown-categories
+  - target-leakage
+  - temporal-leakage
+  - entity-leakage
+  - fit-transform
+  - temporal-split
+dependencies:
+  python: ">=3.11"
+  numpy: ">=2.0"
+  pandas: ">=2.2"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/data_quality.py
+    - src/preprocessing_pipeline.py
+    - src/leakage_audit.py
+  tests:
+    - tests/test_data_cleaning.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: leakage-safe-tabular-cleaning-pipeline
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 23
+validation:
+  runtime_test_status: passed
+  test_result: "23 passed"
+next_lesson:
+  id: data-05
+  title: Keşifsel Veri Analizi ve Görselleştirme
