@@ -28,8 +28,9 @@ Bu dersin sonunda:
 7. [Quiz](quiz.md)
 8. [Ödev ve rubrik](assignment.md)
 9. [Mülakat soruları](interview-questions.md)
-10. [Testler](tests/test_optimizers.py)
-11. [Metadata](metadata.yml)
+10. [Optimizer ve eğitim testleri](tests/test_optimizers.py)
+11. [Tekrarlanabilirlik testi](tests/test_reproducibility.py)
+12. [Metadata](metadata.yml)
 
 ## Çalıştırma
 
