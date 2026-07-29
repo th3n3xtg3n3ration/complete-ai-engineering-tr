@@ -1,0 +1,80 @@
+id: ml-03
+slug: logistic-regression-metrics-threshold-calibration
+title: Logistic Regression, Sınıflandırma Metrikleri, Threshold ve Calibration
+module: classical-machine-learning
+module_order: 6
+lesson_order: 3
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 25
+prerequisites:
+  - ml-01
+  - ml-02
+  - ai-math-06
+  - ai-math-07
+learning_outcomes:
+  - Sigmoid, log-odds ve cross-entropy ile logistic regression geliştirir.
+  - L1/L2 regularization ve class weight seçeneklerini karşılaştırır.
+  - Threshold-dependent ve threshold-independent metrikleri ayırır.
+  - İş maliyetleri ve guardrail'lerle karar eşiği seçer.
+  - Brier score, reliability table ve ECE ile calibration ölçer.
+  - Sigmoid ve isotonic probability calibration uygular.
+  - Leakage-safe sınıflandırma pipeline'ı geliştirir.
+topics:
+  - logistic-regression
+  - sigmoid
+  - log-odds
+  - maximum-likelihood
+  - binary-cross-entropy
+  - gradient-descent
+  - l1-regularization
+  - l2-regularization
+  - class-imbalance
+  - class-weight
+  - confusion-matrix
+  - precision
+  - recall
+  - f1
+  - balanced-accuracy
+  - roc-auc
+  - average-precision
+  - threshold-tuning
+  - cost-sensitive-classification
+  - brier-score
+  - calibration
+  - platt-scaling
+  - isotonic-regression
+  - scikit-learn-pipeline
+dependencies:
+  python: ">=3.11"
+  numpy: ">=2.0"
+  pandas: ">=2.2"
+  scikit-learn: ">=1.7,<2"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/logistic_models.py
+    - src/classification_metrics.py
+    - src/calibration_pipeline.py
+  tests:
+    - tests/test_classification.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: calibrated-cost-sensitive-binary-classifier
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 36
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 36-passed
+next_lesson:
+  id: ml-04
+  title: Decision Tree, Random Forest, Gradient Boosting ve Ensemble

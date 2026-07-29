@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Klasik Makine Öğrenmesi — Ders 2: Linear Regression, Regularization ve Regresyon Değerlendirmesi](06-classical-machine-learning/02-linear-regression-regularization-evaluation/README.md) tamamlandı.
+[Klasik Makine Öğrenmesi — Ders 3: Logistic Regression, Sınıflandırma Metrikleri, Threshold ve Calibration](06-classical-machine-learning/03-logistic-regression-metrics-threshold-calibration/README.md) tamamlandı.
 
-Sıradaki ders: **Logistic Regression, Sınıflandırma Metrikleri, Threshold ve Calibration**.
+Sıradaki ders: **Decision Tree, Random Forest, Gradient Boosting ve Ensemble**.
