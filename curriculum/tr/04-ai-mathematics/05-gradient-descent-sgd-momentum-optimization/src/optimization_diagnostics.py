@@ -80,7 +80,7 @@ def diagnose_training(
 
     increases = sum(
         current > previous
-        for previous, current in zip(loss_values, loss_values[1:], strict=True)
+        for previous, current in zip(loss_values[:-1], loss_values[1:], strict=True)
     )
     if increases >= max(2, len(loss_values) // 3):
         messages.append("Loss frequently increases; the run may be oscillating.")
