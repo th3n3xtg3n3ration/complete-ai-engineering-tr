@@ -1,0 +1,72 @@
+id: tr-ai-math-01-functions-logarithms-graphs
+title: Fonksiyonlar, Logaritmalar ve Grafikler
+module: Yapay Zekâ Matematiği
+module_code: "04"
+lesson_code: "01"
+language: tr
+code_language: en
+level: L1
+status: completed
+estimated_hours: 14
+prerequisites:
+  - Python fonksiyonları ve temel koleksiyonlar
+  - Temel cebir ve denklem çözme
+  - pytest ile temel test çalıştırma
+learning_outcomes:
+  - Fonksiyon, domain, codomain ve range kavramlarını açıklamak
+  - Doğrusal, polinom, üstel ve logaritmik fonksiyonları karşılaştırmak
+  - Bileşke ve ters fonksiyon uygulamak
+  - Grafiklerden eğim, büyüme ve doygunluk davranışı okumak
+  - Aktivasyon fonksiyonlarını sayısal kararlı biçimde uygulamak
+  - MSE ve cross-entropy loss fonksiyonlarını hesaplamak
+  - Merkezi fark ile yerel eğimi yaklaşık hesaplamak
+  - Tekrarlanabilir aktivasyon eğrisi verisi üretmek
+topics:
+  - functions
+  - domain-and-range
+  - linear-functions
+  - polynomial-functions
+  - exponential-functions
+  - logarithms
+  - composition
+  - inverse-functions
+  - graphs
+  - numerical-derivative
+  - sigmoid
+  - tanh
+  - relu
+  - softplus
+  - softmax
+  - mean-squared-error
+  - cross-entropy
+  - numerical-stability
+artifacts:
+  theory: theory.md
+  lab: lab.md
+  source:
+    - src/math_functions.py
+    - src/function_experiment.py
+  tests:
+    - tests/test_math_functions.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+assessment:
+  quiz_questions: 20
+  exercises: 25
+  assignment_points: 100
+  passing_score: 70
+runtime:
+  python: ">=3.11"
+  required_packages:
+    - pytest
+  optional_packages:
+    - pytest-cov
+commands:
+  demo: python curriculum/tr/04-ai-mathematics/01-functions-logarithms-graphs/src/math_functions.py
+  experiment: python curriculum/tr/04-ai-mathematics/01-functions-logarithms-graphs/src/function_experiment.py
+  test: pytest curriculum/tr/04-ai-mathematics/01-functions-logarithms-graphs/tests -q
+next_lesson:
+  code: "02"
+  title: Vektörler, Matrisler, Tensörler, Normlar ve Dot Product
