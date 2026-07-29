@@ -1,0 +1,59 @@
+id: data-engineering-01
+slug: numpy-arrays-vectorization-broadcasting
+title: NumPy Dizileri, Vektörleştirme ve Broadcasting
+module: data-analysis-sql-data-engineering
+module_order: 5
+lesson_order: 1
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 18
+prerequisites:
+  - ai-math-02
+  - ai-math-06
+learning_outcomes:
+  - ndarray shape, dtype, strides ve bellek düzenini yorumlar.
+  - İndeksleme, slicing, masking ve axis işlemlerini uygular.
+  - Broadcasting kurallarını kullanır ve shape hatalarını teşhis eder.
+  - Python döngülerini vektörleştirilmiş NumPy işlemlerine dönüştürür.
+  - Sayısal kararlılık ve veri kalitesi kontrolleri uygular.
+  - Sızıntısız fit/transform özellik hattı geliştirir.
+  - Cosine similarity ve pairwise distance işlemlerini vektörleştirir.
+topics:
+  - numpy
+  - ndarray
+  - dtype
+  - memory-layout
+  - indexing
+  - slicing
+  - masking
+  - axis
+  - broadcasting
+  - vectorization
+  - numerical-stability
+  - missing-data
+  - feature-scaling
+  - data-leakage
+  - benchmarking
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/numpy_foundations.py
+    - src/vectorization_benchmark.py
+    - src/feature_pipeline.py
+  tests:
+    - tests/test_numpy_foundations.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: leakage-safe-numpy-feature-pipeline
+assessment:
+  quiz_questions: 20
+  exercise_count: 70
+  test_count: 20
+next_lesson:
+  id: data-engineering-02
+  title: pandas Series, DataFrame, İndeksleme ve GroupBy
