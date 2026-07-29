@@ -3,12 +3,11 @@
 from __future__ import annotations
 
 import importlib.util
-from pathlib import Path
 import sys
+from pathlib import Path
 
+import polars as pl
 import pytest
-
-pl = pytest.importorskip("polars")
 from polars.testing import assert_frame_equal
 
 SRC = Path(__file__).resolve().parents[1] / "src"
