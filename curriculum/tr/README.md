@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Yapay Zekâ Matematiği — Ders 3: Lineer Dönüşümler, Özdeğer, Özvektör, SVD ve PCA](04-ai-mathematics/03-linear-transformations-eigenvalues-svd-pca/README.md) tamamlandı.
+[Yapay Zekâ Matematiği — Ders 4: Türev, Kısmi Türev, Zincir Kuralı, Jacobian ve Hessian](04-ai-mathematics/04-derivatives-chain-rule-jacobian-hessian/README.md) tamamlandı.
 
-Sıradaki ders: **Türev, Kısmi Türev, Zincir Kuralı, Jacobian ve Hessian**.
+Sıradaki ders: **Gradient Descent, SGD, Momentum ve Optimizasyon**.
