@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Yapay Zekâ Matematiği — Ders 4: Türev, Kısmi Türev, Zincir Kuralı, Jacobian ve Hessian](04-ai-mathematics/04-derivatives-chain-rule-jacobian-hessian/README.md) tamamlandı.
+[Yapay Zekâ Matematiği — Ders 5: Gradient Descent, SGD, Momentum ve Optimizasyon](04-ai-mathematics/05-gradient-descent-sgd-momentum-optimization/README.md) tamamlandı.
 
-Sıradaki ders: **Gradient Descent, SGD, Momentum ve Optimizasyon**.
+Sıradaki ders: **Olasılık, Dağılımlar, Beklenti, Varyans ve Bayes**.
