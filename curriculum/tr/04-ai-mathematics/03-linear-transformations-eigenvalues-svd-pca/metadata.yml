@@ -1,0 +1,28 @@
+id: tr-ai-math-03
+title: Lineer Dönüşümler, Özdeğer, Özvektör, SVD ve PCA
+language: tr
+level: L2
+estimated_hours: 18
+status: completed
+module: 04-ai-mathematics
+lesson: 3
+prerequisites:
+  - Fonksiyonlar, Logaritmalar ve Grafikler
+  - Vektörler, Matrisler, Tensörler, Normlar ve Dot Product
+learning_outcomes:
+  - Lineer dönüşümleri geometrik ve cebirsel olarak yorumlama
+  - Power iteration ile baskın eigenpair hesaplama
+  - SVD ve düşük rank approximation mantığını açıklama
+  - PCA fit, transform ve inverse transform akışı geliştirme
+  - Explained variance ve reconstruction error analizi yapma
+artifacts:
+  - src/linear_transformations.py
+  - src/power_iteration.py
+  - src/pca_from_scratch.py
+  - tests/test_advanced_linear_algebra.py
+assessment:
+  quiz_questions: 20
+  exercises: 50
+  assignment_points: 100
+mini_project: Sıfırdan PCA ile embedding sıkıştırma ve komşuluk korunumu analizi
+next_lesson: Türev, Kısmi Türev, Zincir Kuralı, Jacobian ve Hessian
