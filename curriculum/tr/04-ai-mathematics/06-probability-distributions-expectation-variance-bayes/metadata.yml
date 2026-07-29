@@ -1,0 +1,70 @@
+id: ai-math-06
+slug: probability-distributions-expectation-variance-bayes
+title: Olasılık, Dağılımlar, Beklenti, Varyans ve Bayes
+module: ai-mathematics
+module_order: 4
+lesson_order: 6
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 20
+prerequisites:
+  - ai-math-01
+  - ai-math-02
+  - ai-math-03
+  - ai-math-04
+  - ai-math-05
+learning_outcomes:
+  - Temel olasılık kurallarını ve koşullu olasılığı uygular.
+  - Ayrık ve sürekli rassal değişkenleri ayırt eder.
+  - Yaygın olasılık dağılımlarını AI problemleriyle ilişkilendirir.
+  - Beklenti, varyans, covariance ve correlation hesaplar.
+  - Büyük sayılar yasası ve merkezi limit teoremini simülasyonla inceler.
+  - Bayes teoremini prior, likelihood, evidence ve posterior ile kurar.
+  - Log-uzayında Gaussian Naive Bayes geliştirir.
+  - Calibration, log-loss ve maliyet duyarlı karar eşiklerini yorumlar.
+topics:
+  - probability
+  - conditional-probability
+  - independence
+  - random-variables
+  - bernoulli
+  - binomial
+  - categorical
+  - uniform
+  - normal-distribution
+  - poisson
+  - exponential
+  - expectation
+  - variance
+  - covariance
+  - correlation
+  - law-of-large-numbers
+  - central-limit-theorem
+  - bayes-theorem
+  - naive-bayes
+  - monte-carlo
+  - calibration
+  - numerical-stability
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/probability.py
+    - src/bayes.py
+    - src/simulation_experiment.py
+  tests:
+    - tests/test_probability_and_bayes.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: pure-python-gaussian-naive-bayes
+assessment:
+  quiz_questions: 20
+  exercise_count: 90
+  test_count: 21
+next_lesson:
+  id: ai-math-07
+  title: İstatistiksel Çıkarım, Maximum Likelihood ve Hipotez Testi
