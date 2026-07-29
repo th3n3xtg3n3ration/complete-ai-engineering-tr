@@ -1,0 +1,30 @@
+id: tr-ai-math-04
+title: Türev, Kısmi Türev, Zincir Kuralı, Jacobian ve Hessian
+slug: derivatives-chain-rule-jacobian-hessian
+module: 04-ai-mathematics
+lesson: 4
+language: tr
+level: L2
+status: completed
+estimated_hours: 18
+prerequisites:
+  - functions-logarithms-graphs
+  - vectors-matrices-tensors-norms-dot-product
+learning_outcomes:
+  - calculate numerical derivatives and gradients
+  - explain and apply the chain rule
+  - compute Jacobian and Hessian approximations
+  - implement reverse-mode automatic differentiation
+  - validate analytical gradients with finite differences
+artifacts:
+  - theory.md
+  - lab.md
+  - src/calculus.py
+  - src/autodiff.py
+  - src/gradient_check.py
+  - tests/test_calculus_and_autodiff.py
+  - exercises.md
+  - quiz.md
+  - assignment.md
+  - interview-questions.md
+next_lesson: gradient-descent-sgd-momentum-optimization
