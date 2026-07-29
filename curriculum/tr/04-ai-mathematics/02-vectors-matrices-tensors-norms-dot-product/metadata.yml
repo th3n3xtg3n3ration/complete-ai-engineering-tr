@@ -1,0 +1,73 @@
+id: tr-ai-math-02
+title: Vektörler, Matrisler, Tensörler, Normlar ve Dot Product
+slug: vectors-matrices-tensors-norms-dot-product
+language: tr
+module: 04-ai-mathematics
+lesson_number: 2
+status: completed
+level: L1-L2
+estimated_hours: 16
+prerequisites:
+  - tr-ai-math-01
+learning_objectives:
+  - distinguish scalars vectors matrices and tensors
+  - reason about shape rank axis and broadcasting
+  - implement vector and matrix operations with validation
+  - compute L1 L2 and infinity norms
+  - compare cosine similarity and Euclidean distance
+  - build a small embedding similarity search experiment
+topics:
+  - scalar
+  - vector
+  - matrix
+  - tensor
+  - shape
+  - rank
+  - axis
+  - broadcasting
+  - dot-product
+  - outer-product
+  - matrix-multiplication
+  - transpose
+  - l1-norm
+  - l2-norm
+  - infinity-norm
+  - euclidean-distance
+  - cosine-similarity
+  - normalization
+  - embeddings
+artifacts:
+  theory: theory.md
+  lab: lab.md
+  source:
+    - src/linear_algebra.py
+    - src/embedding_experiment.py
+  tests:
+    - tests/test_linear_algebra.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+assessment:
+  quiz_questions: 20
+  coding_exercises: 40
+  interview_questions: 50
+  assignment_points: 100
+mini_project:
+  name: Saf Python Embedding Arama Motoru
+  deliverables:
+    - validated vector index
+    - cosine and Euclidean search
+    - normalization comparison
+    - persistence layer
+    - pytest suite
+    - technical report
+quality_requirements:
+  - English code and Turkish explanations
+  - Python 3.11 or newer
+  - dependency-free core implementation
+  - explicit shape validation
+  - deterministic ranking
+  - finite-number validation
+  - pytest coverage
+next_lesson: tr-ai-math-03
