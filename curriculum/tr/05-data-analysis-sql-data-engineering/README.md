@@ -11,10 +11,10 @@ Bu modül; ham veriyi güvenilir, tekrarlanabilir ve modellemeye hazır veri ür
 3. [Polars, Lazy Execution ve Kolon Tabanlı Performans](03-polars-lazy-execution-columnar-performance/README.md) — expression API, LazyFrame, query planı, pushdown, streaming, kardinalite doğrulaması ve eager/lazy benchmark
 4. [Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı](04-data-cleaning-missing-outliers-encoding-leakage/README.md) — veri kalite profili, MCAR/MAR/MNAR, IQR, robust z-score, rare/unknown category, fit/transform ve leakage denetimi
 5. [Keşifsel Veri Analizi ve Görselleştirme](05-exploratory-data-analysis-visualization/README.md) — descriptive statistics, missingness, korelasyon, segment/zaman analizi, Matplotlib ve tekrarlanabilir EDA raporu
+6. [SQL Temelleri, JOIN, CTE ve Window Function](06-sql-basics-joins-cte-window-functions/README.md) — ilişkisel grain, constraint, parametreli sorgu, JOIN kardinalitesi, CTE, anti-join, ranking, LAG ve running total
 
 ## Sıradaki dersler
 
-6. SQL temelleri, JOIN, CTE ve window function
 7. İndeksler, transaction, query plan ve veritabanı güvenilirliği
 8. API, ETL/ELT, veri doğrulama, şema, versiyonlama ve veri capstone
 
