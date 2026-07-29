@@ -1,0 +1,33 @@
+id: ml-05
+slug: svm-margin-kernel-scaling
+title: SVM, Margin, Kernel ve Ölçekleme
+module: classical-machine-learning
+module_order: 6
+lesson_order: 5
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 24
+prerequisites: [ml-01, ml-02, ml-03, ml-04]
+topics: [support-vector-machine, maximum-margin, hinge-loss, linear-kernel, polynomial-kernel, rbf-kernel, c-parameter, gamma, feature-scaling, class-weight, probability-calibration, grid-search]
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source: [src/kernel_functions.py, src/svm_models.py, src/svm_pipeline.py]
+  tests: [tests/test_svm.py]
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 35
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 35-passed
+next_lesson:
+  id: ml-06
+  title: Clustering, Anomaly Detection ve Dimensionality Reduction
