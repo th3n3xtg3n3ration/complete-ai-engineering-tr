@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Veri Analizi, SQL ve Veri Mühendisliği — Ders 6: SQL Temelleri, JOIN, CTE ve Window Function](05-data-analysis-sql-data-engineering/06-sql-basics-joins-cte-window-functions/README.md) tamamlandı.
+[Veri Analizi, SQL ve Veri Mühendisliği — Ders 7: İndeksler, Transaction, Query Plan ve Veritabanı Güvenilirliği](05-data-analysis-sql-data-engineering/07-indexes-transactions-query-plans-database-reliability/README.md) tamamlandı.
 
-Sıradaki ders: **İndeksler, Transaction, Query Plan ve Veritabanı Güvenilirliği**.
+Sıradaki ders: **API, ETL/ELT, Veri Doğrulama, Şema, Versiyonlama ve Veri Capstone**.
