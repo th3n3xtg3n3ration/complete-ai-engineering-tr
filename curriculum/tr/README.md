@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Yapay Zekâ Matematiği — Ders 2: Vektörler, Matrisler, Tensörler, Normlar ve Dot Product](04-ai-mathematics/02-vectors-matrices-tensors-norms-dot-product/README.md) tamamlandı.
+[Yapay Zekâ Matematiği — Ders 3: Lineer Dönüşümler, Özdeğer, Özvektör, SVD ve PCA](04-ai-mathematics/03-linear-transformations-eigenvalues-svd-pca/README.md) tamamlandı.
 
-Sıradaki ders: **Lineer Dönüşümler, Özdeğer, Özvektör, SVD ve PCA**.
+Sıradaki ders: **Türev, Kısmi Türev, Zincir Kuralı, Jacobian ve Hessian**.
