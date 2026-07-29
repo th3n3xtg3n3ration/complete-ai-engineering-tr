@@ -1,0 +1,56 @@
+id: cs-05-linux-process-thread-http-rest
+title: Linux, Process, Thread, HTTP ve REST Temelleri
+language: tr
+level: L2
+status: completed
+estimated_hours: 16
+module: 03-computer-science
+order: 5
+prerequisites:
+  - cs-04-testing-debugging-profiling-logging
+learning_outcomes:
+  - Linux dosya sistemi, izinler ve environment variable kullanımını açıklamak
+  - Güvenli child process çalıştırmak ve exit code/timeout yönetmek
+  - Thread, process, concurrency ve parallelism kavramlarını ayırt etmek
+  - Race condition, lock, deadlock ve bounded concurrency uygulamak
+  - HTTP request/response, metot, status code ve header yapılarını kullanmak
+  - REST kaynakları, hata sözleşmeleri, idempotency ve versioning tasarlamak
+  - Test edilebilir küçük bir inference HTTP API geliştirmek
+topics:
+  - linux
+  - filesystem
+  - permissions
+  - environment-variables
+  - process
+  - signals
+  - subprocess
+  - threads
+  - concurrency
+  - parallelism
+  - locks
+  - semaphores
+  - graceful-shutdown
+  - http
+  - rest
+  - status-codes
+  - idempotency
+  - pagination
+  - api-versioning
+  - inference-api
+artifacts:
+  theory: theory.md
+  lab: lab.md
+  source:
+    - src/system_inspector.py
+    - src/http_api.py
+  tests:
+    - tests/test_systems_and_http.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+assessment:
+  quiz_questions: 15
+  assignment_points: 100
+  automated_tests_required: 15
+mini_project: production-ready-mini-inference-service
