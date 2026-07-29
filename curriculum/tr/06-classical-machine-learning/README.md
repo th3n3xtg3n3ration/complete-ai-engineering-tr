@@ -1,0 +1,38 @@
+# Modül 6 — Klasik Makine Öğrenmesi
+
+Bu modül; iş problemini doğru tanımlayan, leakage-safe deneyler kuran, klasik ML algoritmalarını matematiksel ve pratik yönleriyle uygulayan ve modelleri güvenilir biçimde seçip açıklayabilen AI mühendisleri yetiştirmeyi amaçlar.
+
+**Modül durumu:** Devam ediyor
+
+## Tamamlanan dersler
+
+1. [Problem Tanımı, Baseline ve Deney Tasarımı](01-problem-definition-baselines-experiment-design/README.md) — prediction unit, target/horizon, feature availability, random/temporal/entity split, leakage, baseline, metrik ve bootstrap
+
+## Sıradaki dersler
+
+2. Linear regression, regularization ve regresyon değerlendirmesi
+3. Logistic regression, sınıflandırma metrikleri, threshold ve calibration
+4. Decision tree, random forest, gradient boosting ve ensemble
+5. SVM, margin, kernel ve ölçekleme
+6. Clustering, anomaly detection ve dimensionality reduction
+7. Model açıklanabilirliği, permutation importance, SHAP ve hata analizi
+8. Cross-validation, hyperparameter optimization, model seçimi ve ML capstone
+
+## Modül çıktıları
+
+Bu modülü tamamlayan öğrenci:
+
+- ML problemini karar, target, horizon ve veri grain'i üzerinden tanımlar.
+- Leakage-safe random, temporal ve entity-level deneyler kurar.
+- Regresyon ve sınıflandırma algoritmalarını uygular ve değerlendirir.
+- Linear, tree, ensemble, boosting, SVM ve unsupervised modelleri karşılaştırır.
+- Threshold, calibration ve sınıf dengesizliği kararlarını iş maliyetleriyle ilişkilendirir.
+- Cross-validation ve hyperparameter optimization süreçlerini doğru biçimde tasarlar.
+- Permutation importance, SHAP ve slice analysis ile hata analizi yapar.
+- Uçtan uca test edilen, tekrarlanabilir bir klasik ML sistemi paketler.
+
+## Modül capstone
+
+Son derste leakage-safe preprocessing, cross-validation, model karşılaştırma, hyperparameter optimization, calibration, explainability, hata analizi ve model artefaktı yayımlamayı birleştiren uçtan uca bir klasik ML projesi geliştirilecektir.
+
+Her ders; Türkçe teori, İngilizce kod, laboratuvar, alıştırmalar, quiz, ödev, mülakat soruları, testler ve metadata ile yayımlanır.

@@ -1,0 +1,73 @@
+id: ml-01
+slug: problem-definition-baselines-experiment-design
+title: Problem Tanımı, Baseline ve Deney Tasarımı
+module: classical-machine-learning
+module_order: 6
+lesson_order: 1
+language: tr
+code_language: en
+level: L2
+status: completed
+estimated_hours: 22
+prerequisites:
+  - data-01
+  - data-02
+  - data-04
+  - data-05
+  - ai-math-06
+  - ai-math-07
+learning_outcomes:
+  - ML problemini prediction unit, target, horizon ve feature availability ile tanımlar.
+  - Random, temporal ve entity split stratejilerini uygular.
+  - Target, temporal, entity ve preprocessing leakage risklerini teşhis eder.
+  - Regresyon ve sınıflandırma baseline'ları geliştirir.
+  - Göreve uygun primary ve guardrail metrikler seçer.
+  - Bootstrap ve paired bootstrap ile metrik belirsizliğini ölçer.
+  - Tekrarlanabilir deney konfigürasyonu ve sonuç kaydı üretir.
+topics:
+  - problem-framing
+  - supervised-learning
+  - prediction-unit
+  - target-definition
+  - feature-availability
+  - data-leakage
+  - random-split
+  - temporal-split
+  - entity-split
+  - baselines
+  - regression-metrics
+  - classification-metrics
+  - bootstrap
+  - experiment-design
+  - reproducibility
+dependencies:
+  python: ">=3.11"
+  numpy: ">=2.0"
+  pandas: ">=2.2"
+  scikit-learn: ">=1.7,<2"
+  pytest: ">=8"
+artifacts:
+  theory: theory.md
+  laboratory: lab.md
+  source:
+    - src/problem_definition.py
+    - src/baselines.py
+    - src/experiment_design.py
+  tests:
+    - tests/test_ml_foundations.py
+  exercises: exercises.md
+  quiz: quiz.md
+  assignment: assignment.md
+  interview_questions: interview-questions.md
+mini_project: leakage-safe-baseline-experiment
+assessment:
+  quiz_questions: 20
+  exercise_count: 60
+  test_count: 27
+validation:
+  syntax_checked: true
+  runtime_test_status: passed
+  runtime_test_result: 27-passed
+next_lesson:
+  id: ml-02
+  title: Linear Regression, Regularization ve Regresyon Değerlendirmesi

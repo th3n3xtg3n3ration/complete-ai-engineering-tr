@@ -10,7 +10,7 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 | 03 | [Bilgisayar Bilimleri ve Yazılım Mühendisliği](03-computer-science/README.md) | Tamamlandı |
 | 04 | [Yapay Zekâ Matematiği](04-ai-mathematics/README.md) | Tamamlandı |
 | 05 | [Veri Analizi, SQL ve Veri Mühendisliği](05-data-analysis-sql-data-engineering/README.md) | Tamamlandı |
-| 06 | Klasik Makine Öğrenmesi | Planlandı |
+| 06 | [Klasik Makine Öğrenmesi](06-classical-machine-learning/README.md) | Devam ediyor |
 | 07 | Derin Öğrenme ve PyTorch | Planlandı |
 | 08 | Uygulamalı AI | Planlandı |
 | 09 | Attention ve Transformer | Planlandı |
@@ -24,8 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Veri Analizi, SQL ve Veri Mühendisliği — Ders 8: API, ETL/ELT, Veri Doğrulama, Şema, Versiyonlama ve Veri Capstone](05-data-analysis-sql-data-engineering/08-api-etl-elt-validation-schema-versioning-data-capstone/README.md) tamamlandı.
+[Klasik Makine Öğrenmesi — Ders 1: Problem Tanımı, Baseline ve Deney Tasarımı](06-classical-machine-learning/01-problem-definition-baselines-experiment-design/README.md) tamamlandı.
 
-**Veri Analizi, SQL ve Veri Mühendisliği modülündeki sekiz dersin tamamı yayımlandı.**
-
-Sıradaki modül: **Klasik Makine Öğrenmesi**.
+Sıradaki ders: **Linear Regression, Regularization ve Regresyon Değerlendirmesi**.
