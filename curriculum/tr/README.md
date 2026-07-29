@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Veri Analizi, SQL ve Veri Mühendisliği — Ders 4: Veri Temizleme, Eksik Değer, Aykırı Değer, Encoding ve Veri Sızıntısı](05-data-analysis-sql-data-engineering/04-data-cleaning-missing-outliers-encoding-leakage/README.md) tamamlandı.
+[Veri Analizi, SQL ve Veri Mühendisliği — Ders 5: Keşifsel Veri Analizi ve Görselleştirme](05-data-analysis-sql-data-engineering/05-exploratory-data-analysis-visualization/README.md) tamamlandı.
 
-Sıradaki ders: **Keşifsel Veri Analizi ve Görselleştirme**.
+Sıradaki ders: **SQL Temelleri, JOIN, CTE ve Window Function**.
