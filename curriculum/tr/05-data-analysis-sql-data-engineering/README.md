@@ -2,7 +2,7 @@
 
 Bu modül; ham veriyi güvenilir, tekrarlanabilir ve modellemeye hazır veri ürünlerine dönüştürebilen AI mühendisleri yetiştirmeyi amaçlar. NumPy ve DataFrame işlemlerinden SQL sorgularına, veri kalitesi kontrollerinden ETL/ELT hatlarına kadar üretim odaklı bir temel kurar.
 
-**Modül durumu:** Devam ediyor
+**Modül durumu:** Tamamlandı
 
 ## Tamamlanan dersler
 
@@ -13,10 +13,7 @@ Bu modül; ham veriyi güvenilir, tekrarlanabilir ve modellemeye hazır veri ür
 5. [Keşifsel Veri Analizi ve Görselleştirme](05-exploratory-data-analysis-visualization/README.md) — descriptive statistics, missingness, korelasyon, segment/zaman analizi, Matplotlib ve tekrarlanabilir EDA raporu
 6. [SQL Temelleri, JOIN, CTE ve Window Function](06-sql-basics-joins-cte-window-functions/README.md) — ilişkisel grain, constraint, parametreli sorgu, JOIN kardinalitesi, CTE, anti-join, ranking, LAG ve running total
 7. [İndeksler, Transaction, Query Plan ve Veritabanı Güvenilirliği](07-indexes-transactions-query-plans-database-reliability/README.md) — B-tree ve birleşik indeks, query planı, ACID, savepoint, idempotency, optimistic locking, WAL, backup ve integrity check
-
-## Sıradaki dersler
-
-8. API, ETL/ELT, veri doğrulama, şema, versiyonlama ve veri capstone
+8. [API, ETL/ELT, Veri Doğrulama, Şema, Versiyonlama ve Veri Capstone](08-api-etl-elt-validation-schema-versioning-data-capstone/README.md) — API retry/pagination, immutable snapshot, data contract, quarantine, idempotent upsert, lineage, manifest ve sürümlü veri ürünü
 
 ## Modül çıktıları
 
@@ -32,8 +29,10 @@ Bu modülü tamamlayan öğrenci:
 - Veri sözleşmesi, şema doğrulama, lineage ve versiyonlama uygular.
 - Test edilen bir veri pipeline'ını uçtan uca paketler.
 
-## Modül capstone
+## Tamamlanan modül capstone'u
 
-Son derste API ve dosya kaynaklarından veri alan, ham veriyi katmanlı biçimde saklayan, şema ve kalite kontrolleri uygulayan, SQL tabanlı analitik tablolar üreten ve modellemeye hazır özellik seti yayımlayan tekrarlanabilir bir veri hattı geliştirilecektir.
+Capstone; cursor pagination kullanan API kaynaklarından veriyi alır, retry ve rate-limit davranışını yönetir, ham yanıtları checksum kontrollü bronze snapshot'ları olarak saklar, sürümlü veri sözleşmeleriyle doğrular, hatalı kayıtları quarantine eder, geçerli kayıtları SQLite warehouse'a idempotent upsert ile yükler, SQL tabanlı müşteri özellikleri üretir ve silver/gold artefaktlarını lineage ve manifest ile yayımlar.
 
-Her ders; Türkçe teori, İngilizce kod, laboratuvar, alıştırmalar, quiz, ödev, mülakat soruları, testler ve metadata ile yayımlanır.
+Modülün sekiz dersinin tamamı; Türkçe teori, İngilizce kod, laboratuvar, alıştırmalar, quiz, ödev, mülakat soruları, testler ve metadata ile yayımlandı.
+
+**Sıradaki modül:** Klasik Makine Öğrenmesi
