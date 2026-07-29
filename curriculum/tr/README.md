@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Yapay Zekâ Matematiği — Ders 5: Gradient Descent, SGD, Momentum ve Optimizasyon](04-ai-mathematics/05-gradient-descent-sgd-momentum-optimization/README.md) tamamlandı.
+[Yapay Zekâ Matematiği — Ders 6: Olasılık, Dağılımlar, Beklenti, Varyans ve Bayes](04-ai-mathematics/06-probability-distributions-expectation-variance-bayes/README.md) tamamlandı.
 
-Sıradaki ders: **Olasılık, Dağılımlar, Beklenti, Varyans ve Bayes**.
+Sıradaki ders: **İstatistiksel Çıkarım, Maximum Likelihood ve Hipotez Testi**.
