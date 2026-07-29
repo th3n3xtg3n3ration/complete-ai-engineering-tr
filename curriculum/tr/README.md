@@ -24,6 +24,6 @@ Bu indeks, repodaki güncel modül klasörlerini ve ilerleme durumunu gösterir.
 
 ## Güncel çalışma noktası
 
-[Yapay Zekâ Matematiği — Ders 6: Olasılık, Dağılımlar, Beklenti, Varyans ve Bayes](04-ai-mathematics/06-probability-distributions-expectation-variance-bayes/README.md) tamamlandı.
+[Yapay Zekâ Matematiği — Ders 7: İstatistiksel Çıkarım, Maximum Likelihood ve Hipotez Testi](04-ai-mathematics/07-statistical-inference-maximum-likelihood-hypothesis-testing/README.md) tamamlandı.
 
-Sıradaki ders: **İstatistiksel Çıkarım, Maximum Likelihood ve Hipotez Testi**.
+Sıradaki ders: **Entropi, Cross-Entropy, KL Divergence ve Matematik Capstone**.
